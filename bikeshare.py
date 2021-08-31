@@ -7,7 +7,6 @@ Created on Mon Aug 30 13:53:24 2021
 
 import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -51,6 +50,7 @@ def get_filters():
             print("invalid input. Please enter a valid input")
 
     print('-'*40)
+    print('All done and completed..............')
     return city, month, day
 
 
