@@ -135,6 +135,7 @@ def station_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+    print('All done and completed..............')
 
 
 def trip_duration_stats(df):
